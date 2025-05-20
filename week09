@@ -1,0 +1,56 @@
+## Wi-Fi
+구성 요소: AP(Access Point), STA(Station)
+
+Service Set
+
+BSS: 단일 AP 환경 (ad hoc/infrastructure 모드)
+
+ESS: 복수 AP 연결된 환경
+
+MAC 방식
+
+DCF: CSMA/CA 기반, 분산형
+
+PCF: Polling 기반 중앙집중형 (옵션)
+
+충돌 회피(CSMA/CA):
+
+랜덤 백오프, RTS/CTS/ACK 활용
+
+문제점: 숨겨진 단말 문제 (Hidden Terminal Problem)
+
+프레임 구조: MAC 프레임 구조 및 주소 체계
+
+## ZigBee
+프로토콜 스택 구성
+
+PHY, MAC, NWK, APS, APL 계층
+
+PHY 계층
+
+2.4GHz 등 3개 대역, 27채널, DSSS 사용
+
+MAC 계층
+
+통신 유형: Beacon 사용(Slotted) / Non-Beacon(Non-slotted)
+
+Slotted 방식: Super Frame, GTS, 절전 기능 탁월
+
+주소
+
+IEEE(64비트), Short Address(16비트)
+
+MAC 주소: PAN ID + 주소
+
+프레임 유형: 비콘, 데이터, 확인, 명령 프레임
+
+주소 할당 방식
+
+분산 할당 기법 (Cskip 공식 기반)
+
+중앙집중 대비 트래픽 감소 효과
+
+라우팅
+
+Tree 기반 주소 구조, Mesh 네트워크 구성
+
