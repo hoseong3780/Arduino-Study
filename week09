@@ -1,4 +1,4 @@
-## Wi-Fi
+ - Wi-Fi
 구성 요소: AP(Access Point), STA(Station)
 
 Service Set
@@ -21,7 +21,7 @@ PCF: Polling 기반 중앙집중형 (옵션)
 
 프레임 구조: MAC 프레임 구조 및 주소 체계
 
-## ZigBee
+ - ZigBee
 프로토콜 스택 구성
 
 PHY, MAC, NWK, APS, APL 계층
