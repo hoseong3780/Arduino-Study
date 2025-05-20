@@ -1,0 +1,35 @@
+OpenCV 설치
+
+설치 전 swap 메모리 크기 조정 필요 (200 → 2048MB)
+
+설치 명령어:
+sudo rm /usr/lib/python3.11/EXTERNALLY-MANAGED
+pip install opencv-contrib-python
+sudo apt-get install python3-opencv
+
+설치 후 swap 메모리를 다시 200MB로 원복
+
+USB 카메라 테스트
+
+OpenCV를 이용한 카메라 테스트 코드 작성 및 실행
+
+Telegram Bot 생성
+
+BotFather 사용
+
+/start, /newbot 입력
+
+botname_bot 형식으로 이름 지정
+
+Token 발급 후, 사용자와의 대화 시작
+
+Python Telegram Bot 연동
+
+설치:
+pip install python-telegram-bot --upgrade
+
+GitHub 클론:
+git clone https://github.com/python-telegram-bot/python-telegram-bot --recursive
+TimerBot.py 수정
+
+이미지 전송 및 타이머 기능 설정 (예: context.job_queue.run_once() 사용)
