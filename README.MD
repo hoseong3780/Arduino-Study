@@ -1,4 +1,4 @@
-##InfluxDB 설치
+## InfluxDB 설치
  - InfluxDB download key using wget
 ```
 wget -q https://repos.influxdata.com/influxdata-archive_compat.key
